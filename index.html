@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Brust: Home</title>
+    <!-- fontawesome icon -->
+    <script src="https://kit.fontawesome.com/3ea40a1985.js" crossorigin="anonymous"></script>
+    <!-- fab icon -->
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!-- tailwinds -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+      body{
+        font-family: 'Lato', sans-serif;
+      }
+    </style>
 </head>
 <body>
     <!-- Header section -->
@@ -20,9 +30,10 @@
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </label>
                 <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-black bg-base-100 rounded-box w-52">
-                  <li><a>Item 1</a></li>
-                  <li><a>Item 2</a></li>
-                  <li><a>Item 3</a></li>
+                  <li><a>Home</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>All Fruits</a></li>
                 </ul>
               </div>
               <ul class="menu menu-horizontal px-1 hidden lg:flex">
@@ -33,10 +44,10 @@
               </ul>
             </div>
             <div class="navbar-center items-center">
-              <a class="flex items-center justify-between normal-case "><img class="w-12" src="./images/logo.png" alt=""> <span class="text-4xl">Fruit Burst</span></a>
+              <a class="flex items-center justify-between normal-case "><img class="w-12 mx-3" src="./images/logo.png" alt=""> <span class="text-4xl font-bold">Fruit Burst</span></a>
             </div>
             <div class="navbar-end">
-              <a class="btn">Button</a>
+              <input type="text" placeholder="Type here" class="input rounded-full bg-white input-ghost w-full max-w-xs" />
             </div>
           </div>
         </nav>
