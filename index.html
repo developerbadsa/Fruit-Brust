@@ -11,6 +11,8 @@
     <!-- tailwinds -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
       body{
@@ -583,9 +585,9 @@
 
 
           <!-- service body -->
-          <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div class="grid">
             <!-- service body col 1 -->
-            <div class="grid md:grid-rows-3 gap-y-8 col-start-2 md:col-start-1" >
+            <div class="service-col-1 grid md:grid-rows-3 gap-y-8 " >
               <div class="flex justify-center">
                  <!-- icon -->
                 <div class="mr-7">
@@ -653,7 +655,7 @@
           
 
           <!-- service body col 2 -->
-          <div class="items-center col-start-1 lg:col-start-2">
+          <div class=" service-col-2 items-center">
             <img src="./images/whychoose1.png" alt="">
           </div>
 
@@ -662,8 +664,8 @@
 
 
           <!-- service body col 3 -->
-          <div class="col-start-3 lg:col-start-3">
-            <div class="grid lg:grid-rows-3 gap-y-8 items-end">
+          <div class="service-col-3">
+            <div class="grid md:grid-rows-2 lg:grid-rows-3 gap-y-8 items-end">
               <div class="flex flex-row-reverse justify-center ">
                  <!-- icon -->
                 <div class="">
